@@ -1,0 +1,23 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+div.shadowtext 
+{
+    color: white; 
+    background: rgba(0,0,0,0.5);
+}
+
+/*
+    * workaround for crappy IE nearest-neighbor rendering, if/until we
+    * figure out a way to snap the viewport to integer levels.
+    */
+#container img {
+    -ms-interpolation-mode: bicubic !important;
+}

@@ -1,0 +1,1 @@
+﻿exports.Foo = function() {return 43};
